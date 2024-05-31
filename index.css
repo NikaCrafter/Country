@@ -103,3 +103,36 @@ body {
     font-size:4rem;
     color:white;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        max-width: none;
+    }
+
+    .search-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-input {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #search-button {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #country-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .header-text {
+        margin-right: 0;
+        font-size: 3rem;
+    }
+}
+
